@@ -1,0 +1,23 @@
+site_name: Introdução do MarkDown
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  code_block: true
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+      use_pygments: true
+      linenums: true
+
+nav :
+ - index.md
+ - paragrafo.md
+ - titulo.md
+ - blockquote.md
+ - lista.md
+ - links.md
+ - imagens.md
+ - codigo.md
+ - lista-ordenada.md
