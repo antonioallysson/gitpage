@@ -1,15 +1,7 @@
 site_name: Introdução do MarkDown
 
 theme:
-  name: readthedocs
-  highlightjs: true
-  code_block: true
-
-markdown_extensions:
-  - codehilite:
-      guess_lang: false
-      use_pygments: true
-      linenums: true
+  name: material
 
 nav :
  - index.md
@@ -21,3 +13,10 @@ nav :
  - imagens.md
  - codigo.md
  - lista-ordenada.md
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.superfences
