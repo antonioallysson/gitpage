@@ -5,6 +5,7 @@ theme:
 
 nav :
  - index.md
+ - enfase.md
  - paragrafo.md
  - titulo.md
  - blockquote.md
